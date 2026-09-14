@@ -9,25 +9,25 @@
 # =============================================================================
 
 team:
-  name: ""                             # REQUIRED — e.g., "Orion Squad"
-  track: ""                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  name: "Hustlers"                             # REQUIRED — e.g., "Orion Squad"
+  track: "AI"                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: ""                           # REQUIRED — e.g., "Alice Chen"
-    email: ""                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: "Yash Khare"                           # REQUIRED — e.g., "Alice Chen"
+    email: "23aiml027@charusat.edu.in"                          # REQUIRED — e.g., "alice.chen@ibm.com"
   members:
-    - name: ""                         # REQUIRED — Team member 1
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "Puja Rachchh"                         # REQUIRED — Team member 1
+      email: "23aiml057@charusat.edu.in"
+    - name: "Krishna Chodvadiya"                         # Add more members by copying the two lines above
+      email: "23aiml009@charusat.edu.in"
+    - name: "Harsh Shah"
+      email: "d24aiml085@charusat.edu.in"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "Drug Safety Signal Detector & Regulatory Submission Readiness Checker"                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
 
   problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
-    Replace this text with a concise description of the real-world problem
-    your project addresses and who experiences it.
+    "FDA's FAERS database has 20M+ adverse event reports. Vioxx caused 27,000+ heart attack before its signal was acted on. Separately, a drug approval CTD dossier spans 100,000+ pages across 5 modules — one missing section gets it rejected, costing 6–12 months and $50–100M. Both problems share the same root cause: too much complex data for manual review."
+
 
   solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
     Replace this text with a clear description of your solution
