@@ -1,6 +1,5 @@
-# 🚀 [Your Project Title Here]
+# 🚀 Drug Safety Signal Detector & Regulatory Submission Readiness Checker
 
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
 ---
 
@@ -8,18 +7,16 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Name** | Hustlers |
+| **Track** | AI |
+| **Team Lead** | [Yash Khare] — [23aiml027@charusat.ed.in] |
+| **Members** | Puja Rachchh, Krishna Chodvadiya, Harsh Shah |
 
 ---
 
 ## 🎯 Problem Statement
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
-
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+> FDA's FAERS database has 20M+ adverse event reports. Vioxx caused 27,000+ heart attack before its signal was acted on. Separately, a drug approval CTD dossier spans 100,000+ pages across 5 modules — one missing section gets it rejected, costing 6–12 months and $50–100M. Both problems share the same root cause: too much complex data for manual review.
 
 ---
 
