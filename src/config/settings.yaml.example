@@ -1,0 +1,27 @@
+# PharmaGuard AI — Application Configuration
+#
+# Copy this file to config/settings.yaml and fill in real values.
+# config/settings.yaml is listed in .gitignore — never commit real secrets.
+
+app:
+  name: "PharmaGuard AI"
+  version: "0.1.0"
+  env: "development"       # development | staging | production
+  port: 8000
+  log_level: "info"
+
+# IBM watsonx.ai (added in a later sprint — SDK not yet installed)
+# watsonx:
+#   api_key: "${WATSONX_API_KEY}"
+#   project_id: "${WATSONX_PROJECT_ID}"
+#   url: "${WATSONX_URL}"
+#   model_id: "ibm/granite-13b-instruct-v2"
+
+# DuckDB (in-process; path is relative to repo root)
+duckdb:
+  path: "data/pharmaguard.duckdb"
+
+# FAERS data directories (populated once the ingest module is built)
+faers:
+  raw_dir: "data/raw"
+  demo_dir: "data/demo"
